@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Workshop - Maryna Kozak</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h3 {
+            color: #435b4d;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>HTML Workshop - Maryna Kozak</h1>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="about">
+        <blockquote class="quote">
+            Keep your face always toward the sunshine - and shadows will fall behind you.
+        </blockquote>
+
+        <div class="animation-box"></div>
+
+        <div class="paragraph">
+            <p>I am a student at LAUREA. I'm studying BIT, Developing Digital Services. My student number is 2610839. Hover over my profile picture above to see the CSS filter effect!</p>
+        </div>
+
+        <img src="images/profile.jpg" alt="Maryna in Dolomites" class="filter-image" style="width:10%; height:auto;">
+    </section>
+
+    <section id="services">
+        <h2>My hobbies:</h2>
+        <ol class="pseudo-list">
+            <li>Hiking in the mountains</li>
+            <li>Painting watercolors</li>
+            <li>Travel</li>
+        </ol>
+<h2>Grid Layout</h2>
+<div class="grid-container">
+    <div class="grid-item">1</div>
+    <div class="grid-item">2</div>
+    <div class="grid-item">3</div>
+    <div class="grid-item">4</div>
+    <div class="grid-item">5</div>
+    <div class="grid-item">6</div>
+</div>
+<h2>Flexbox Layout</h2>
+<div class="flex-container">
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+</div>
+<h2>Responsive Design</h2>
+<div class="responsive-box">
+    Resize the window to see the effect
+</div>
+        <h3>Let's connect on LinkedIn:</h3>
+        <a href="https://www.linkedin.com/in/marinakozak/">My Page</a>
+
+        <div class="tableName">
+            <h3>My courses in this semester:</h3>
+        </div>
+
+        <table>
+            <tr>
+                <th>Course name</th>
+                <th>Teacher's Name</th>
+            </tr>
+            <tr>
+                <td>Basics of Digital Service</td>
+                <td>Kalpana Rathod</td>
+            </tr>
+            <tr>
+                <td>Basics of ICT Infrastructure and Cloud Services</td>
+                <td>Arvind Sharma, Deepak Chhetri</td>
+            </tr>
+            <tr>
+                <td>Business Environments</td>
+                <td>Mervi Saarela</td>
+            </tr>
+            <tr>
+                <td>Effective Communication and Project Work</td>
+                <td>Sebastian King</td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="contact">
+        <div class="formName">
+            <h3>Contact Request</h3>
+        </div>
+
+        <form>
+            <label for="name">Your name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Your email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <input type="submit" value="Send request" class="transition-button">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>Copyright 2025</p>
+</footer>
+
+</body>
+</html>
